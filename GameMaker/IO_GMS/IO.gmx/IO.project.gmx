@@ -4,25 +4,40 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound_test</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
     <sprite>sprites\sprite_spike</sprite>
     <sprite>sprites\sprite_terr_one</sprite>
     <sprite>sprites\sprite_IOspawn</sprite>
     <sprite>sprites\sprite_IOdeath</sprite>
+    <sprite>sprites\sprite_nothing</sprite>
+    <sprite>sprites\sprite_fakenothing</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\camera_movement.gml</script>
+    <script>scripts\camera_movement_P2.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\object_IO</object>
+    <object>objects\object_IO_P2</object>
     <object>objects\object_floor</object>
+    <object>objects\object_floormove</object>
+    <object>objects\object_floordis_app</object>
+    <object>objects\object_fakefloor</object>
+    <object>objects\object_fakenothing</object>
+    <object>objects\object_faketrap</object>
     <object>objects\object_trap</object>
+    <object>objects\object_falltrap</object>
     <object>objects\object_surprise</object>
     <object>objects\object_lives</object>
+    <object>objects\object_teleporter</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_room</room>
