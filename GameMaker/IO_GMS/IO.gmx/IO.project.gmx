@@ -10,6 +10,8 @@
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
     <sprite>sprites\sprite_spike</sprite>
+    <sprite>sprites\sprite_spikeHLmove</sprite>
+    <sprite>sprites\sprite_spikeHRmove</sprite>
     <sprite>sprites\sprite_spikeVSmove</sprite>
     <sprite>sprites\sprite_spikeHSmove</sprite>
     <sprite>sprites\sprite_wallspike</sprite>
@@ -61,7 +63,9 @@
     <object>objects\object_surprise</object>
     <object>objects\object_surprisefloaty</object>
     <object>objects\object_horizontalLsur</object>
+    <object>objects\object_horizontalLsur2</object>
     <object>objects\object_horizontalRsur</object>
+    <object>objects\object_horizontalRsur2</object>
     <object>objects\object_verticalDsur</object>
     <object>objects\object_verticalUsur</object>
     <object>objects\object_lives</object>

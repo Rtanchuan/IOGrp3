@@ -73,8 +73,10 @@
     <instance objName="object_horizontalLsur" x="448" y="512" name="inst_C6FF420F" locked="0" code="" scaleX="0.980000019073486" scaleY="-0.949999988079071" colour="4294967295" rotation="0"/>
     <instance objName="object_trapdis_app" x="352" y="480" name="inst_514E0A66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_verticalDsur" x="288" y="320" name="inst_C6AA122E" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
-    <instance objName="object_horizontalRsur" x="-32" y="512" name="inst_CB6DC116" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_horizontalRsur" x="0" y="512" name="inst_CB6DC116" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_verticalUsur" x="320" y="608" name="inst_A9ED5422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_horizontalLsur2" x="352" y="544" name="inst_1FDAC616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_horizontalRsur2" x="0" y="544" name="inst_A00AB56B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
