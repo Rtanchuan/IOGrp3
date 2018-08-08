@@ -77,6 +77,17 @@
     <instance objName="object_verticalUsur" x="320" y="608" name="inst_A9ED5422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_horizontalLsur2" x="352" y="544" name="inst_1FDAC616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_horizontalRsur2" x="0" y="544" name="inst_A00AB56B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="256" y="1216" name="inst_5CF5B3D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="960" y="864" name="inst_001820EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="128" y="128" name="inst_DBBC4A64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="512" y="320" name="inst_A8AF57C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="1088" y="160" name="inst_C2ADE003" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="1408" y="896" name="inst_C88EE75C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="1664" y="352" name="inst_5DDC544C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2" x="64" y="736" name="inst_D41DFE2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2" x="128" y="352" name="inst_F13484F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BGtrap" x="64" y="512" name="inst_828E8014" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2trap" x="160" y="800" name="inst_745FBA61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

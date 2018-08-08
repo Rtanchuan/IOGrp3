@@ -32,6 +32,8 @@
     <sprite>sprites\sprite_bullet</sprite>
     <sprite>sprites\sprite_platformM</sprite>
     <sprite>sprites\sprite_3spike</sprite>
+    <sprite>sprites\sprite_BG</sprite>
+    <sprite>sprites\sprite_BG2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
@@ -59,7 +61,6 @@
     <object>objects\object_trap</object>
     <object>objects\object_walltrap</object>
     <object>objects\object_floatytrap</object>
-    <object>objects\object_falltrap</object>
     <object>objects\object_surprise</object>
     <object>objects\object_surprisefloaty</object>
     <object>objects\object_horizontalLsur</object>
@@ -70,6 +71,10 @@
     <object>objects\object_verticalUsur</object>
     <object>objects\object_lives</object>
     <object>objects\object_teleporter</object>
+    <object>objects\object_BG</object>
+    <object>objects\object_BGtrap</object>
+    <object>objects\object_BG2</object>
+    <object>objects\object_BG2trap</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_room</room>
