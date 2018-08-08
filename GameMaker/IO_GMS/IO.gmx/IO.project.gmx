@@ -54,7 +54,7 @@
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
     <object>objects\object_trap</object>
-    <object>objects\rotatedtrap</object>
+    <object>objects\object_rotatedtrap</object>
     <object>objects\object_floatytrap</object>
     <object>objects\object_falltrap</object>
     <object>objects\object_surprise</object>
@@ -62,9 +62,9 @@
     <object>objects\object_teleporter</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\stage1</room>
-    <room>rooms\test_room</room>
-    <room>rooms\room2</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\testroom</room>
+    <room>rooms\Stage1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
