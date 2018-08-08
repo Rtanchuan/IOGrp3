@@ -10,6 +10,7 @@
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
     <sprite>sprites\sprite_spike</sprite>
+    <sprite>sprites\sprite_rotatedSpike</sprite>
     <sprite>sprites\sprite_terr_one</sprite>
     <sprite>sprites\sprite_IOspawn</sprite>
     <sprite>sprites\sprite_IOdeath</sprite>
@@ -20,6 +21,7 @@
     <sprite>sprites\sprite_terr_two</sprite>
     <sprite>sprites\sprite_terr_three</sprite>
     <sprite>sprites\sprite_terr_four</sprite>
+    <sprite>sprites\sprite_terrfourV2</sprite>
     <sprite>sprites\sprite_terr_five</sprite>
     <sprite>sprites\sprite_malware</sprite>
     <sprite>sprites\sprite_turret</sprite>
@@ -42,14 +44,17 @@
     <object>objects\object_floor2</object>
     <object>objects\object_floor2v2</object>
     <object>objects\object_floor3</object>
+    <object>objects\object_floor3v2</object>
     <object>objects\object_floor4</object>
     <object>objects\object_floorrotate</object>
     <object>objects\object_floormove</object>
     <object>objects\object_floordis_app</object>
+    <object>objects\object_floordis_app2</object>
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
     <object>objects\object_trap</object>
+    <object>objects\rotatedtrap</object>
     <object>objects\object_floatytrap</object>
     <object>objects\object_falltrap</object>
     <object>objects\object_surprise</object>
@@ -57,8 +62,9 @@
     <object>objects\object_teleporter</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test_room</room>
     <room>rooms\stage1</room>
+    <room>rooms\test_room</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

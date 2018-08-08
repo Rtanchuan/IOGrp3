@@ -80,11 +80,11 @@ image_speed = 0.3;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>190</string>
+            <string>50</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>500</string>
+            <string>1000</string>
           </argument>
         </arguments>
       </action>
