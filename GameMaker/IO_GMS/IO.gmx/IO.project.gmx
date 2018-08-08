@@ -15,6 +15,17 @@
     <sprite>sprites\sprite_IOdeath</sprite>
     <sprite>sprites\sprite_nothing</sprite>
     <sprite>sprites\sprite_fakenothing</sprite>
+    <sprite>sprites\sprite_surpise</sprite>
+    <sprite>sprites\sprite_floatyspike</sprite>
+    <sprite>sprites\sprite_terr_two</sprite>
+    <sprite>sprites\sprite_terr_three</sprite>
+    <sprite>sprites\sprite_terr_four</sprite>
+    <sprite>sprites\sprite_terr_five</sprite>
+    <sprite>sprites\sprite_malware</sprite>
+    <sprite>sprites\sprite_turret</sprite>
+    <sprite>sprites\sprite_bullet</sprite>
+    <sprite>sprites\sprite_platformM</sprite>
+    <sprite>sprites\sprite_3spike</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
@@ -28,12 +39,18 @@
     <object>objects\object_IO</object>
     <object>objects\object_IO_P2</object>
     <object>objects\object_floor</object>
+    <object>objects\object_floor2</object>
+    <object>objects\object_floor2v2</object>
+    <object>objects\object_floor3</object>
+    <object>objects\object_floor4</object>
+    <object>objects\object_floorrotate</object>
     <object>objects\object_floormove</object>
     <object>objects\object_floordis_app</object>
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
     <object>objects\object_trap</object>
+    <object>objects\object_floatytrap</object>
     <object>objects\object_falltrap</object>
     <object>objects\object_surprise</object>
     <object>objects\object_lives</object>
@@ -41,6 +58,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\test_room</room>
+    <room>rooms\stage1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
