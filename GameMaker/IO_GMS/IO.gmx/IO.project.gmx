@@ -57,11 +57,12 @@
     <object>objects\object_floormove</object>
     <object>objects\object_floordis_app</object>
     <object>objects\object_floordis_app2</object>
+    <object>objects\object_trapdis_app</object>
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
     <object>objects\object_trap</object>
-    <object>objects\object_rotatedtrap</object>
+    <object>objects\object_walltrap</object>
     <object>objects\object_floatytrap</object>
     <object>objects\object_surprise</object>
     <object>objects\object_surprisefloaty</object>
