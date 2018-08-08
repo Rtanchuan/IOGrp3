@@ -10,12 +10,16 @@
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
     <sprite>sprites\sprite_spike</sprite>
+    <sprite>sprites\sprite_spikeVSmove</sprite>
+    <sprite>sprites\sprite_spikeHSmove</sprite>
+    <sprite>sprites\sprite_wallspike</sprite>
     <sprite>sprites\sprite_terr_one</sprite>
     <sprite>sprites\sprite_IOspawn</sprite>
     <sprite>sprites\sprite_IOdeath</sprite>
     <sprite>sprites\sprite_nothing</sprite>
     <sprite>sprites\sprite_fakenothing</sprite>
     <sprite>sprites\sprite_surpise</sprite>
+    <sprite>sprites\sprite_horizontaldetect</sprite>
     <sprite>sprites\sprite_floatyspike</sprite>
     <sprite>sprites\sprite_terr_two</sprite>
     <sprite>sprites\sprite_terr_three</sprite>
@@ -46,13 +50,20 @@
     <object>objects\object_floorrotate</object>
     <object>objects\object_floormove</object>
     <object>objects\object_floordis_app</object>
+    <object>objects\object_trapdis_app</object>
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
     <object>objects\object_trap</object>
+    <object>objects\object_walltrap</object>
     <object>objects\object_floatytrap</object>
     <object>objects\object_falltrap</object>
     <object>objects\object_surprise</object>
+    <object>objects\object_surprisefloaty</object>
+    <object>objects\object_horizontalLsur</object>
+    <object>objects\object_horizontalRsur</object>
+    <object>objects\object_verticalDsur</object>
+    <object>objects\object_verticalUsur</object>
     <object>objects\object_lives</object>
     <object>objects\object_teleporter</object>
   </objects>
