@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>hsp=0;
+hsp_carry=0;
 vsp=0;
 grv=0;
 walksp=0;
@@ -130,16 +131,20 @@ vsp = -8;
 jump_amt=0;
 }
 
+var hsp_final = hsp+hsp_carry;
+hsp_carry=0;
+
 //horizontal
 if(place_meeting(x+hsp,y,object_floor)){
-while(!place_meeting(x+sign(hsp),y,object_floor))
+while(!place_meeting(x+sign(hsp_final),y,object_floor))
 {
-x = x+sign(hsp)
+x = x+sign(hsp_final)
 }
 
+hsp_final=0;
 hsp=0;
 }
-x = x +hsp;
+x = x +hsp_final;
 
 //vertical
 if(place_meeting(x,y+vsp,object_floor)){
@@ -599,6 +604,22 @@ camera_movement();
         <useapplyto>0</useapplyto>
         <exetype>0</exetype>
         <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="9" enumb="82">
+      <action>
+        <libid>1</libid>
+        <id>331</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_restart_game</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
