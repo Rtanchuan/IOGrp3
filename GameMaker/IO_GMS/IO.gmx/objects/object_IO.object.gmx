@@ -80,11 +80,11 @@ image_speed = 0.3;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>190</string>
+            <string>50</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>500</string>
+            <string>1000</string>
           </argument>
         </arguments>
       </action>
@@ -436,6 +436,30 @@ camera_movement();
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>object_lives</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>lifes</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>10</string>
           </argument>
         </arguments>
       </action>

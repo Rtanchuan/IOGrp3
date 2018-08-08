@@ -26,6 +26,7 @@
     <sprite>sprites\sprite_terr_two</sprite>
     <sprite>sprites\sprite_terr_three</sprite>
     <sprite>sprites\sprite_terr_four</sprite>
+    <sprite>sprites\sprite_terrfourV2</sprite>
     <sprite>sprites\sprite_terr_five</sprite>
     <sprite>sprites\sprite_malware</sprite>
     <sprite>sprites\sprite_turret</sprite>
@@ -50,10 +51,12 @@
     <object>objects\object_floor2</object>
     <object>objects\object_floor2v2</object>
     <object>objects\object_floor3</object>
+    <object>objects\object_floor3v2</object>
     <object>objects\object_floor4</object>
     <object>objects\object_floorrotate</object>
     <object>objects\object_floormove</object>
     <object>objects\object_floordis_app</object>
+    <object>objects\object_floordis_app2</object>
     <object>objects\object_trapdis_app</object>
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
@@ -77,8 +80,9 @@
     <object>objects\object_BG2trap</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test_room</room>
-    <room>rooms\stage1</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\testroom</room>
+    <room>rooms\Stage1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
