@@ -68,8 +68,8 @@
     <instance objName="object_surprise" x="32" y="608" name="inst_6AA73C60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_surprise" x="192" y="864" name="inst_FC6F5F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floor" x="1920" y="544" name="inst_1871FB22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_floormove" x="768" y="1088" name="inst_120D7C07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_floormove" x="1536" y="576" name="inst_C9C56445" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="768" y="1088" name="inst_120D7C07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="1536" y="576" name="inst_C9C56445" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_horizontalLsur" x="448" y="512" name="inst_C6FF420F" locked="0" code="" scaleX="0.980000019073486" scaleY="-0.949999988079071" colour="4294967295" rotation="0"/>
     <instance objName="object_verticalDsur" x="288" y="320" name="inst_C6AA122E" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="object_horizontalRsur" x="0" y="512" name="inst_CB6DC116" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>

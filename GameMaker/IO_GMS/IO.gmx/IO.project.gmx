@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sound_test</sound>
+    <sound>sound\sound_same</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
@@ -30,7 +31,9 @@
     <sprite>sprites\sprite_terr_five</sprite>
     <sprite>sprites\sprite_malware</sprite>
     <sprite>sprites\sprite_turret</sprite>
-    <sprite>sprites\sprite_bullet</sprite>
+    <sprite>sprites\sprite_wallturret</sprite>
+    <sprite>sprites\sprite_Ubullet</sprite>
+    <sprite>sprites\sprite_Lbullet</sprite>
     <sprite>sprites\sprite_platformM</sprite>
     <sprite>sprites\sprite_3spike</sprite>
     <sprite>sprites\sprite_BG</sprite>
@@ -53,14 +56,18 @@
     <object>objects\object_floor3</object>
     <object>objects\object_floor3v2</object>
     <object>objects\object_floor4</object>
+    <object>objects\object_likequicksand</object>
     <object>objects\object_floorrotate</object>
-    <object>objects\object_floormove</object>
+    <object>objects\object_floorLRmove</object>
+    <object>objects\object_floorUDmove</object>
     <object>objects\object_floordis_app</object>
     <object>objects\object_floordis_app2</object>
+    <object>objects\object_breakablefloor</object>
     <object>objects\object_trapdis_app</object>
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
+    <object>objects\object_fakewalltrap</object>
     <object>objects\object_trap</object>
     <object>objects\object_walltrap</object>
     <object>objects\object_floatytrap</object>
@@ -78,9 +85,18 @@
     <object>objects\object_BGtrap</object>
     <object>objects\object_BG2</object>
     <object>objects\object_BG2trap</object>
+    <object>objects\object_Uturret</object>
+    <object>objects\object_Lwallturret</object>
+    <object>objects\object_Ubullet</object>
+    <object>objects\object_Lbullet</object>
+    <object>objects\object_enemy</object>
+    <object>objects\object_signpostmove</object>
+    <object>objects\object_signpostjump</object>
+    <object>objects\object_signpostF</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Tutorial</room>
+    <room>rooms\room5</room>
     <room>rooms\testroom</room>
     <room>rooms\Stage1</room>
   </rooms>

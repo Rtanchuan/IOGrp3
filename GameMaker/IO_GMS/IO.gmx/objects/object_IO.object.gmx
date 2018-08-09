@@ -34,6 +34,13 @@ spawnanim=true;
 alive=true
 jump_amt=0;
 image_speed = 0.3;
+
+maxjumps=1; //change to 2 for double jump
+walljumper=0; //change to 1 for wall jump
+sprintsp=0; //change to 3 for sprint ability
+sprinter=0;
+
+KYS=0;
 </string>
           </argument>
         </arguments>
@@ -161,7 +168,7 @@ key_jump = keyboard_check_pressed(vk_space);
 
 var move = key_right - key_left;
 
-hsp = move * walksp;
+hsp = move * (walksp + sprinter);
 vsp =vsp +grv
 
 //max falling speed
@@ -170,40 +177,79 @@ vsp =vsp +grv
 //}
 
 if(place_meeting(x,y+1,object_floor)){
-jump_amt=1;
+jump_amt=maxjumps;
+}
+
+if(place_meeting(x+walljumper,y,object_floor))|| (place_meeting(x-walljumper,y,object_floor)){
+jump_amt=maxjumps;
+    //if(place_meeting(x+walljumper,y,object_floor)){
+    //    hsp=-10;
+    //}
+    //if(place_meeting(x-walljumper,y,object_floor)){
+    //    hsp=10;
+    //}
 }
 
 if(jump_amt&gt;0) &amp;&amp; (key_jump) &amp;&amp; (spawnanim==false) &amp;&amp; (alive==true)
 {
 vsp = -8;
-jump_amt=0;
+jump_amt-=1;
 }
 
 var hsp_final = hsp+hsp_carry;
 hsp_carry=0;
 
-//horizontal
-if(place_meeting(x+hsp,y,object_floor)){
-while(!place_meeting(x+sign(hsp_final),y,object_floor))
+
+
+
+
+
+//Horizontal Collision
+var hcollide;
+hcollide = instance_place(x+hsp_final,y,object_floor);
+if (hcollide != noone)
 {
-x = x+sign(hsp_final)
+    if ((hcollide).type == 1)
+        {
+            yplus = 0;
+            while (place_meeting(x+hsp_final,y-yplus,object_floor) &amp;&amp; yplus &lt;= abs(1*hsp_final)) yplus += 1;
+            if place_meeting(x+hsp_final,y-yplus,object_floor)
+            {
+                while (!place_meeting(x+sign(hsp_final),y,object_floor)) x+=sign(hsp_final);
+                hsp_final = 0;
+                hsp=0;
+            }
+            else
+            {
+                y -= yplus
+            }
+        }
 }
+x += hsp_final;
 
-hsp_final=0;
-hsp=0;
-}
-x = x +hsp_final;
 
-//vertical
-if(place_meeting(x,y+vsp,object_floor)){
-while(!place_meeting(x,y+sign(vsp),object_floor))
+//Vertical Collision
+var vcollide;
+vcollide = instance_place(x,y+vsp,object_floor);
+if (vcollide != noone)
 {
-y = y+sign(vsp)
+    if ((vcollide).type == 1)
+    {
+        while (!place_meeting(x,y+sign(vsp),object_floor)) y+=sign(vsp);
+        vsp=0;
+    }
+    if (((vcollide).type == 2) &amp;&amp; sign(vsp) == 1)
+    {
+        if (!place_meeting(x,y,object_floor))
+        {
+            while (!place_meeting(x,y+sign(vsp),object_floor)) y+=1;
+            vsp=0;
+        }    
+    }    
 }
+y+=vsp;
 
-vsp=0;
-}
-y = y +vsp;
+
 
 camera_movement();
 
@@ -513,13 +559,179 @@ camera_movement();
       </action>
       <action>
         <libid>1</libid>
-        <id>203</id>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hsp=0;
+hsp_carry=0;
+vsp=0;
+grv=0;
+walksp=0;
+spawnanim=true;
+alive=true
+jump_amt=0;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>wherex</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>wherey</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>541</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
+        <functionname>action_sprite_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>sprite_IOspawn</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0.3</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>721</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_health</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>100</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>KYS</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>3</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+if(!audio_is_playing(sound_test)) &amp;&amp; (!audio_is_playing(sound_same))
+audio_play_sound(choose(sound_test, sound_same), 1, false);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -707,7 +919,7 @@ camera_movement();
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>0.4</string>
           </argument>
         </arguments>
       </action>
@@ -732,6 +944,7 @@ alive=false;
 walksp=0;
 vsp=0;
 hsp=0;
+sprinter=0;
 </string>
           </argument>
         </arguments>
@@ -859,6 +1072,7 @@ alive=false;
 walksp=0;
 vsp=0;
 hsp=0;
+sprinter=0;
 </string>
           </argument>
         </arguments>
@@ -884,6 +1098,30 @@ hsp=0;
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0.4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>KYS</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -992,6 +1230,170 @@ hsp=0;
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="9" enumb="16">
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>spawnanim</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>false</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>alive</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>true</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sprinter</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>sprintsp</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="10" enumb="16">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sprinter</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
