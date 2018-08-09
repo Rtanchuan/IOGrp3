@@ -90,6 +90,9 @@
     <object>objects\object_Ubullet</object>
     <object>objects\object_Lbullet</object>
     <object>objects\object_enemy</object>
+    <object>objects\object_signpostmove</object>
+    <object>objects\object_signpostjump</object>
+    <object>objects\object_signpostF</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Tutorial</room>
