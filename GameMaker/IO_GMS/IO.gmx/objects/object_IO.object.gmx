@@ -717,8 +717,8 @@ jump_amt=0;
           <argument>
             <kind>1</kind>
             <string>
-//if(!audio_is_playing(sound_test)) &amp;&amp; (!audio_is_playing(sound_same))
-//audio_play_sound(choose(sound_test, sound_same), 1, false);
+if(!audio_is_playing(sound_test)) &amp;&amp; (!audio_is_playing(sound_same))
+audio_play_sound(choose(sound_test, sound_same), 1, false);
 </string>
           </argument>
         </arguments>

@@ -64,7 +64,7 @@
     <instance objName="object_floor" x="2100" y="1000" name="inst_476F88AA" locked="0" code="" scaleX="1" scaleY="1.25" colour="4294967295" rotation="0"/>
     <instance objName="object_floor" x="2300" y="1000" name="inst_7B4DCA1A" locked="0" code="" scaleX="1" scaleY="1.25" colour="4294967295" rotation="0"/>
     <instance objName="object_floor" x="2500" y="1000" name="inst_89AC9585" locked="0" code="" scaleX="1" scaleY="1.25" colour="4294967295" rotation="0"/>
-    <instance objName="object_floor" x="700" y="1000" name="inst_7F9D3DE7" locked="0" code="" scaleX="0.5" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor" x="701" y="994" name="inst_7F9D3DE7" locked="0" code="" scaleX="0.5" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="object_floor" x="900" y="1073" name="inst_A31BE212" locked="0" code="" scaleX="0.5" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="object_floor2v2" x="1700" y="750" name="inst_79AF83B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floor2v2" x="900" y="750" name="inst_8A3D1BF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
