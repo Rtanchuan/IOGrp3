@@ -93,6 +93,17 @@
     <object>objects\object_signpostmove</object>
     <object>objects\object_signpostjump</object>
     <object>objects\object_signpostF</object>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <object>objects\object_signpostenter</object>
+    <object>objects\object_start</object>
+    <object>objects\object_load</object>
+    <object>objects\object_quit</object>
+    <object>objects\object_pause</object>
+=======
+>>>>>>> parent of 3783905... Merge pull request #10 from Rtanchuan/save/load
+>>>>>>> parent of bf5be7a... Merge branch 'development' into IO-upgrade
   </objects>
   <rooms name="rooms">
     <room>rooms\Tutorial</room>
