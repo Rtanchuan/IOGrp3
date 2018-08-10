@@ -93,6 +93,11 @@
     <object>objects\object_signpostmove</object>
     <object>objects\object_signpostjump</object>
     <object>objects\object_signpostF</object>
+    <object>objects\object_signpostenter</object>
+    <object>objects\object_start</object>
+    <object>objects\object_load</object>
+    <object>objects\object_quit</object>
+    <object>objects\object_pause</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Tutorial</room>
