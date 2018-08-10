@@ -130,7 +130,6 @@
     <instance objName="object_signpostmove" x="100" y="1050" name="inst_EC2B2107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostjump" x="350" y="1050" name="inst_C4103C2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostF" x="269" y="422" name="inst_EC511EF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_pause" x="200" y="900" name="inst_C3BF20C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
