@@ -92,7 +92,7 @@ if (showtext == 1)
     draw_set_color(c_white);
     draw_set_halign(fa_center);
     //draw_set_font(fnt_default);
-    draw_text(x,y-64,"Hi!#Use arrow keys to#move left and right");
+    draw_text(x,y-64,"Hi!#Use arrow keys to#move left and right.");
 }
 
 </string>
