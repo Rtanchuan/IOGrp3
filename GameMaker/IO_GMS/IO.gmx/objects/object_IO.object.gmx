@@ -113,7 +113,6 @@ KYS=0;
           </argument>
         </arguments>
       </action>
-<<<<<<< HEAD
       <action>
         <libid>1</libid>
         <id>211</id>
@@ -138,8 +137,6 @@ KYS=0;
           </argument>
         </arguments>
       </action>
-=======
->>>>>>> parent of 3783905... Merge pull request #10 from Rtanchuan/save/load
     </event>
     <event eventtype="1" enumb="0">
       <action>
