@@ -95,10 +95,11 @@
     <object>objects\object_signpostF</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Stage1</room>
     <room>rooms\Tutorial</room>
+    <room>rooms\Stage_2</room>
     <room>rooms\room5</room>
     <room>rooms\testroom</room>
-    <room>rooms\Stage1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
