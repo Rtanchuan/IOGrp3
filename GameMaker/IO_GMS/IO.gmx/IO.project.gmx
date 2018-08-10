@@ -101,7 +101,7 @@
     <object>objects\object_start</object>
     <object>objects\object_load</object>
     <object>objects\object_quit</object>
-    <object>objects\object_totitle</object>
+    <object>objects\object_pause</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_screen</room>
