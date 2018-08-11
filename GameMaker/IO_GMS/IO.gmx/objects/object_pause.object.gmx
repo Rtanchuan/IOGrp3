@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.pause = 0;
+            <string>pause = 0;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="27">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,14 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.pause == 0)
-{
-    global.pause=1;
-}
-else
-{
-    global.pause =0;
-}
+            <string>instance_create(990,10,object_totitle);
 </string>
           </argument>
         </arguments>
@@ -78,17 +71,17 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.pause)
+            <string>if (pause)
 {
-    draw_set_color(c_white);
-    draw_set_alpha(0.5);
-    draw_rectangle(0,0,view_xview[0],view_yview[0],0);
-    draw_set_halign(fa_center);
+    //draw_set_color(c_black);
+    //draw_rectangle(0,0,view_xport[0],view_yport[0],0);
+    //draw_set_halign(fa_center);
     //draw_set_font();
-    draw_set_color(c_white);
-    draw_set_alpha(1);
-    draw_text(view_xview[0],view_yview[0], "Game Paused");
+    //draw_set_color(c_white);
+    //draw_set_alpha(1);
+    //draw_text(view_xview[0]+384,view_yview[0]+512, "Game Paused");
 }
+
 </string>
           </argument>
         </arguments>
@@ -111,13 +104,20 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.pause == 0)
+            <string>if (!pause)
 {
-    global.pause=1;
+    pause=1;
+    //instance_deactivate_all(true);
+    //audio_pause_all();
+    //instance_create(object_IO.x,object_IO.x,object_quit);
+    instance_activate_object(object_totitle);
 }
 else
 {
-    global.pause =0;
+    pause =0;
+    //instance_activate_all();
+    //audio_resume_all();
+    instance_deactivate_object(object_totitle);
 }
 </string>
           </argument>

@@ -5,8 +5,17 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound_test</sound>
+    <sound>sound\sound_oh_well</sound>
     <sound>sound\sound_same</sound>
+    <sound>sound\sound_ycdbnt</sound>
+    <sound>sound\sound_messedycbnt</sound>
+    <sound>sound\sound_rhyme</sound>
+    <sound>sound\sound_go</sound>
+    <sound>sound\sound_hehe</sound>
+    <sound>sound\sound_space2jump</sound>
+    <sound>sound\sound_what_even</sound>
+    <sound>sound\sound_isuck2</sound>
+    <sound>sound\sound_believer</sound>
     <sound>sound\sound_IOdeath</sound>
     <sound>sound\sound_IOspawn</sound>
     <sound>sound\sound_jump</sound>
@@ -44,6 +53,13 @@
     <sprite>sprites\sprite_IO2jump</sprite>
     <sprite>sprites\sprite_IO2</sprite>
     <sprite>sprites\sprite_IO2walk</sprite>
+    <sprite>sprites\sprite_portal</sprite>
+    <sprite>sprites\sprite_play</sprite>
+    <sprite>sprites\sprite_playhover</sprite>
+    <sprite>sprites\sprite_continue</sprite>
+    <sprite>sprites\sprite_conthover</sprite>
+    <sprite>sprites\sprite_mainmenu</sprite>
+    <sprite>sprites\sprite_switch</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -71,6 +87,7 @@
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
+    <object>objects\object_fakefloatytrap</object>
     <object>objects\object_fakewalltrap</object>
     <object>objects\object_trap</object>
     <object>objects\object_walltrap</object>
@@ -102,12 +119,14 @@
     <object>objects\object_load</object>
     <object>objects\object_quit</object>
     <object>objects\object_totitle</object>
+    <object>objects\object_main_menu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_screen</room>
     <room>rooms\Tutorial</room>
-    <room>rooms\room5</room>
+    <room>rooms\stage1</room>
     <room>rooms\testroom</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
