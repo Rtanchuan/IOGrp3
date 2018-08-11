@@ -114,12 +114,20 @@ if (showtext == 1)
     //draw_set_halign(fa_center);
     //draw_set_font(fnt_default);
     //draw_text(x+1,y-64+1,"Hi!#This is a string!");
-    
-    draw_set_alpha(1);
-    draw_set_color(c_white);
-    draw_set_halign(fa_center);
-    //draw_set_font(fnt_default);
-    draw_text(x,y-64,"Press F onto the portal");
+    if(global.deathcount&gt;0){
+        draw_set_alpha(1);
+        draw_set_color(c_white);
+        draw_set_halign(fa_center);
+        //draw_set_font(fnt_default);
+        draw_text(x,y-64,"Press F onto the portal");
+    }
+    else{
+        draw_set_alpha(1);
+        draw_set_color(c_red);
+        draw_set_halign(fa_center);
+        //draw_set_font(fnt_default);
+        draw_text(x,y-64,"You haven't died yet");
+    }
 }
 
 </string>

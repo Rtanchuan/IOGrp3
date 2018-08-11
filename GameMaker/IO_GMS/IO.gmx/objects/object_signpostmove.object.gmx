@@ -87,12 +87,20 @@ if (showtext == 1)
     //draw_set_halign(fa_center);
     //draw_set_font(fnt_default);
     //draw_text(x+1,y-64+1,"Hi!#This is a string!");
-    
-    draw_set_alpha(1);
-    draw_set_color(c_white);
-    draw_set_halign(fa_center);
-    //draw_set_font(fnt_default);
-    draw_text(x,y-64,"Hi!#Use arrow keys to#move left and right");
+    if(global.deathcount&lt;=5){
+        draw_set_alpha(1);
+        draw_set_color(c_white);
+        draw_set_halign(fa_center);
+        //draw_set_font(fnt_default);
+        draw_text(x,y-64,"Hi!#Use arrow keys to#move left and right");
+    }
+    else{
+        draw_set_alpha(1);
+        draw_set_color(c_red);
+        draw_set_halign(fa_center);
+        //draw_set_font(fnt_default);
+        draw_text(x,y-64,"Avoid red spikes#if need be");
+    }
 }
 
 </string>

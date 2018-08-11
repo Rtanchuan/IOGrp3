@@ -124,14 +124,23 @@
     <instance objName="object_walltrap" x="2475" y="869" name="inst_B6E58569" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="object_walltrap" x="2212" y="454" name="inst_C3E06616" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_horizontalLsur2" x="601" y="442" name="inst_296C4457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_teleporter" x="100" y="350" name="inst_1AE44FEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_verticalDsur" x="2049" y="870" name="inst_FF8CAB76" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_teleporter" x="100" y="400" name="inst_1AE44FEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_verticalDsur" x="2043" y="870" name="inst_FF8CAB76" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
     <instance objName="object_trapdis_app" x="1950" y="409" name="inst_408D9E8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostmove" x="100" y="1050" name="inst_EC2B2107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostjump" x="350" y="1050" name="inst_C4103C2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostF" x="269" y="422" name="inst_EC511EF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_floor4" x="-100" y="450" name="inst_E8D6FDDE" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="object_floor4" x="2600" y="450" name="inst_E7FF3339" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="-121" y="628" name="inst_B1E39922" locked="0" code="" scaleX="1.25" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2625" y="601" name="inst_15E14757" locked="0" code="" scaleX="1.25" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="2350" y="750" name="inst_3087BDDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="1000" y="250" name="inst_4EC714A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2" x="1550" y="200" name="inst_A3655346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2" x="2300" y="300" name="inst_903BCB0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="1550" y="950" name="inst_F0FD9C93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2" x="800" y="950" name="inst_45680F82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2" x="150" y="250" name="inst_3B84F84F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG2" x="2050" y="950" name="inst_4F6CA7B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_BG" x="250" y="950" name="inst_05A1E584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
