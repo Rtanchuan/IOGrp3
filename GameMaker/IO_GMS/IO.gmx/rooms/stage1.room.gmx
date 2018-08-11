@@ -3,15 +3,15 @@
   <caption></caption>
   <width>2800</width>
   <height>1500</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>50</vsnap>
+  <hsnap>50</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,9 +51,99 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="object_floor2" x="96" y="1504" name="inst_6FB07CC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_floor3v2" x="416" y="1408" name="inst_F2B2C242" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="object_floordis_app" x="256" y="1361" name="inst_FC7AF179" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor2" x="50" y="1500" name="inst_6FB07CC5" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor3v2" x="500" y="1350" name="inst_F2B2C242" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="object_floordis_app" x="26" y="1050" name="inst_FC7AF179" locked="0" code="" scaleX="0.25" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor3" x="800" y="1400" name="inst_994CED36" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="270" y="1280" name="inst_E468A0D7" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2900" y="850" name="inst_556ABC4D" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="50" y="1200" name="inst_0C5216CA" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="200" y="1120" name="inst_B3B63F7C" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floordis_app" x="300" y="1400" name="inst_2A0D6152" locked="0" code="" scaleX="0.25" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floordis_app2" x="149" y="980" name="inst_FC0886AE" locked="0" code="" scaleX="0.25" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="300" y="950" name="inst_BDF628F6" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_surprise" x="466" y="930" name="inst_A8DADD16" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_walltrap" x="625" y="1201" name="inst_618BDFEF" locked="0" code="" scaleX="-2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_walltrap" x="370" y="1080" name="inst_73407743" locked="0" code="" scaleX="2.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_walltrap" x="625" y="1101" name="inst_AC867953" locked="0" code="" scaleX="-2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="700" y="1280" name="inst_8A34C48C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="-100" y="850" name="inst_7E8BB77A" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="1300" y="1230" name="inst_DC2A246C" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="1050" y="1300" name="inst_54170AA7" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2420" y="810" name="inst_0580ED06" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="1350" y="1230" name="inst_E8A57975" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor" x="2450" y="1150" name="inst_3E38B34D" locked="0" code="" scaleX="0.5" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakefloor" x="2040" y="1150" name="inst_44CA06BF" locked="0" code="" scaleX="0.5" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="2600" y="1150" name="inst_806F1E19" locked="0" code="" scaleX="0.400000005960464" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_walltrap" x="2752" y="1120" name="inst_572737A2" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floordis_app" x="2750" y="1080" name="inst_EFE5B34E" locked="0" code="" scaleX="0.5" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakefloor" x="2250" y="1150" name="inst_73D15F5A" locked="0" code="" scaleX="0.5" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor" x="2600" y="1000" name="inst_7FE00C85" locked="0" code="" scaleX="0.25" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor3" x="1200" y="700" name="inst_E829ACA0" locked="0" code="" scaleX="12" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2450" y="1060" name="inst_E93952AE" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2450" y="739" name="inst_3AA07288" locked="0" code="" scaleX="0.5" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorUDmove" x="2450" y="1000" name="inst_F5CD18EC" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor" x="2650" y="850" name="inst_30D15E66" locked="0" code="" scaleX="0.5" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="2450" y="770" name="inst_6DDD320C" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2494" y="780" name="inst_C02EC660" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="2770" y="780" name="inst_597AEE2E" locked="0" code="" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2100" y="1300" name="inst_46E41990" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="object_horizontalRsur" x="2300" y="700" name="inst_6FF9AC3D" locked="0" code="" scaleX="-2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor3" x="2000" y="450" name="inst_263F4EF9" locked="0" code="" scaleX="-8" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="2100" y="630" name="inst_055E0075" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="2300" y="630" name="inst_A2BC35B1" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="2000" y="520" name="inst_3DBDD7DD" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_surprise" x="1900" y="520" name="inst_82D1C198" locked="0" code="" scaleX="-2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="1800" y="520" name="inst_D4BC9F68" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_faketrap" x="1900" y="630" name="inst_C4B2C7E9" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_verticalUsur" x="1300" y="630" name="inst_E0E68254" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="1500" y="630" name="inst_B8262149" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="2200" y="520" name="inst_40601C6A" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="1700" y="630" name="inst_5EF3F422" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="1600" y="520" name="inst_52BCA9F3" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="900" y="520" name="inst_FDF684DC" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="900" y="450" name="inst_77C97E88" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="550" y="450" name="inst_5CEBA5FB" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="200" y="450" name="inst_FCA6E61C" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="object_floordis_app2" x="376" y="1350" name="inst_6D905819" locked="0" code="" scaleX="0.25" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_floordis_app2" x="200" y="1400" name="inst_B3790508" locked="0" code="" scaleX="0.25" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="object_walltrap" x="625" y="1001" name="inst_1AF54C77" locked="0" code="" scaleX="-2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_walltrap" x="370" y="1160" name="inst_21DD5539" locked="0" code="" scaleX="2.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="1400" y="520" name="inst_B64DBF0A" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="900" y="380" name="inst_A9D62BF2" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="200" y="380" name="inst_70647278" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="550" y="520" name="inst_FC04C550" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="550" y="380" name="inst_C112907C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="0" y="200" name="inst_08544A0E" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="2100" y="1300" name="inst_8A49668C" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorUDmove" x="38" y="550" name="inst_6DBD8FA2" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="250" y="250" name="inst_1D977674" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="710" y="330" name="inst_B2D62195" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="1190" y="330" name="inst_999EE510" locked="0" code="" scaleX="0.0576923079788685" scaleY="0.0576923079788685" colour="4294967295" rotation="0"/>
+    <instance objName="object_verticalDsur" x="200" y="520" name="inst_7179CA9F" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="600" y="330" name="inst_D85DC06A" locked="0" code="" scaleX="0.0576923079788685" scaleY="0.0576923079788685" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="150" y="330" name="inst_C345CBE3" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="800" y="250" name="inst_C913B238" locked="0" code="" scaleX="0.0576923079788685" scaleY="0.0576923079788685" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="300" y="330" name="inst_9283B814" locked="0" code="" scaleX="0.0576923079788685" scaleY="0.0576923079788685" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor4" x="1700" y="200" name="inst_49E4F46E" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="1700" y="270" name="inst_3E7AD0F6" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floor3v2" x="2000" y="300" name="inst_C20017AE" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_surprisefloaty" x="1900" y="360" name="inst_9AF67B8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floorLRmove" x="1780" y="253" name="inst_B696A63C" locked="0" code="" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="1700" y="130" name="inst_F94518D4" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_walltrap" x="1939" y="220" name="inst_00E65BC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_verticalUsur" x="2097" y="381" name="inst_EA540CCD" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_floordis_app" x="1930" y="330" name="inst_78904072" locked="0" code="" scaleX="0.25" scaleY="0.025000000372529" colour="4294967295" rotation="0"/>
+    <instance objName="object_horizontalLsur2" x="2400" y="390" name="inst_17675107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_trap" x="2450" y="390" name="inst_D6D92A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_verticalUsur" x="2126" y="381" name="inst_F97499F2" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_verticalUsur" x="2069" y="381" name="inst_422F5959" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object_IO" x="50" y="1376" name="inst_29C8DC37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_teleporter" x="2700" y="350" name="inst_ED018A9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_surprisefloaty" x="1300" y="1181" name="inst_8E9A5E71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakefloatytrap" x="1301" y="1259" name="inst_C962EFDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakenothing" x="2400" y="1150" name="inst_0671FB2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakenothing" x="-50" y="1322" name="inst_0B2CCC76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
