@@ -122,7 +122,7 @@
     <object>objects\object_main_menu</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Title_screen</room>
+    <room>rooms\Stage1</room>
     <room>rooms\Tutorial</room>
     <room>rooms\stage1</room>
     <room>rooms\testroom</room>
