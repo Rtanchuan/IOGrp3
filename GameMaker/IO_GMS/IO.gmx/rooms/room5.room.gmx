@@ -69,6 +69,7 @@
     <instance objName="object_breakablefloor" x="96" y="640" name="inst_31BAD300" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floordis_app" x="352" y="416" name="inst_31C24EF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_IO2" x="128" y="352" name="inst_21C547BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_teleporter" x="704" y="672" name="inst_D0A1210B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
