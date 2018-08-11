@@ -63,12 +63,12 @@
     <instance objName="object_enemy" x="704" y="352" name="inst_BBDD90D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floorLRmove" x="544" y="288" name="inst_602B4389" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floorUDmove" x="320" y="640" name="inst_6A674223" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_IO" x="128" y="352" name="inst_37760D6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floor" x="832" y="736" name="inst_BEDD3382" locked="0" code="" scaleX="4.17999982833862" scaleY="1.12000000476837" colour="4294967295" rotation="0"/>
     <instance objName="object_likequicksand" x="928" y="640" name="inst_34FF2724" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakewalltrap" x="800" y="640" name="inst_F7C6848F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_breakablefloor" x="96" y="640" name="inst_31BAD300" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floordis_app" x="352" y="416" name="inst_31C24EF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_IO2" x="128" y="352" name="inst_21C547BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
