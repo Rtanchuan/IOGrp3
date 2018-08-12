@@ -5,11 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound_test</sound>
+    <sound>sound\sound_oh_well</sound>
     <sound>sound\sound_same</sound>
+    <sound>sound\sound_ycdbnt</sound>
+    <sound>sound\sound_messedycbnt</sound>
+    <sound>sound\sound_rhyme</sound>
+    <sound>sound\sound_go</sound>
+    <sound>sound\sound_hehe</sound>
+    <sound>sound\sound_space2jump</sound>
+    <sound>sound\sound_what_even</sound>
+    <sound>sound\sound_isuck2</sound>
+    <sound>sound\sound_believer</sound>
     <sound>sound\sound_IOdeath</sound>
     <sound>sound\sound_IOspawn</sound>
     <sound>sound\sound_jump</sound>
+    <sound>sound\sound_BGmusic</sound>
+    <sound>sound\sound_BG2music</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
@@ -32,6 +43,7 @@
     <sprite>sprites\sprite_terr_four</sprite>
     <sprite>sprites\sprite_terrfourV2</sprite>
     <sprite>sprites\sprite_terr_five</sprite>
+    <sprite>sprites\sprite_quicksand</sprite>
     <sprite>sprites\sprite_malware</sprite>
     <sprite>sprites\sprite_turret</sprite>
     <sprite>sprites\sprite_wallturret</sprite>
@@ -44,6 +56,14 @@
     <sprite>sprites\sprite_IO2jump</sprite>
     <sprite>sprites\sprite_IO2</sprite>
     <sprite>sprites\sprite_IO2walk</sprite>
+    <sprite>sprites\sprite_portal</sprite>
+    <sprite>sprites\sprite_play</sprite>
+    <sprite>sprites\sprite_playhover</sprite>
+    <sprite>sprites\sprite_continue</sprite>
+    <sprite>sprites\sprite_conthover</sprite>
+    <sprite>sprites\sprite_mainmenu</sprite>
+    <sprite>sprites\sprite_switch</sprite>
+    <sprite>sprites\sprite_totitle</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -71,6 +91,7 @@
     <object>objects\object_fakefloor</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
+    <object>objects\object_fakefloatytrap</object>
     <object>objects\object_fakewalltrap</object>
     <object>objects\object_trap</object>
     <object>objects\object_walltrap</object>
@@ -90,25 +111,40 @@
     <object>objects\object_BG2</object>
     <object>objects\object_BG2trap</object>
     <object>objects\object_Uturret</object>
+    <object>objects\object_Dturret</object>
     <object>objects\object_Lwallturret</object>
+    <object>objects\object_Rwallturret</object>
     <object>objects\object_Ubullet</object>
     <object>objects\object_Lbullet</object>
+    <object>objects\object_Rbullet</object>
+    <object>objects\object_Dbullet</object>
     <object>objects\object_enemy</object>
     <object>objects\object_signpostmove</object>
+    <object>objects\object_signpostgoodluck</object>
+    <object>objects\object_signpostdown</object>
+    <object>objects\object_signpostshift</object>
+    <object>objects\object_signpostdouble</object>
     <object>objects\object_signpostjump</object>
     <object>objects\object_signpostF</object>
     <object>objects\object_signpostenter</object>
+    <object>objects\object_signpostdie</object>
+    <object>objects\object_signpostdieB</object>
+    <object>objects\object_signpostescaper</object>
     <object>objects\object_start</object>
     <object>objects\object_load</object>
     <object>objects\object_quit</object>
     <object>objects\object_totitle</object>
+    <object>objects\object_sureno</object>
+    <object>objects\object_sure</object>
+    <object>objects\object_main_menu</object>
+    <object>objects\object_credits</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Stage1</room>
+    <room>rooms\Title_screen</room>
     <room>rooms\Tutorial</room>
+    <room>rooms\stage1</room>
     <room>rooms\Stage_2</room>
-    <room>rooms\room5</room>
-    <room>rooms\testroom</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
