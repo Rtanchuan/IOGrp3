@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>
 if(!audio_is_playing(sound_BGmusic)) &amp;&amp; (!audio_is_playing(sound_BG2music))
-audio_play_sound(choose(sound_BGmusic,sound_BG2music),1,true);
+audio_play_sound(choose(sound_BG2music,sound_BGmusic),1,true);
 </string>
           </argument>
         </arguments>
