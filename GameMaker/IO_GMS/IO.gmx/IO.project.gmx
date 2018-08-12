@@ -52,7 +52,9 @@
     <sprite>sprites\sprite_platformM</sprite>
     <sprite>sprites\sprite_3spike</sprite>
     <sprite>sprites\sprite_BG</sprite>
+    <sprite>sprites\sprite_BGtrap</sprite>
     <sprite>sprites\sprite_BG2</sprite>
+    <sprite>sprites\sprite_BG2trap</sprite>
     <sprite>sprites\sprite_IO2jump</sprite>
     <sprite>sprites\sprite_IO2</sprite>
     <sprite>sprites\sprite_IO2walk</sprite>

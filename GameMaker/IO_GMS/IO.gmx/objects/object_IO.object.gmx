@@ -1037,7 +1037,7 @@ walksp=0;
 spawnanim=true;
 alive=true
 jump_amt=0;
-
+global.escapedhole=0;
 </string>
           </argument>
         </arguments>
@@ -1427,27 +1427,21 @@ sprinter=0;
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>333</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_save_game</functionname>
         <codestring></codestring>
-        <whoName>object_IO</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>grv=0;
-alive=false;
-walksp=0;
-vsp=0;
-hsp=0;
-sprinter=0;
-</string>
+            <kind>2</kind>
+            <string>IO save</string>
           </argument>
         </arguments>
       </action>
