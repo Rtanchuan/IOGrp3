@@ -43,6 +43,7 @@
     <sprite>sprites\sprite_terr_four</sprite>
     <sprite>sprites\sprite_terrfourV2</sprite>
     <sprite>sprites\sprite_terr_five</sprite>
+    <sprite>sprites\sprite_quicksand</sprite>
     <sprite>sprites\sprite_malware</sprite>
     <sprite>sprites\sprite_turret</sprite>
     <sprite>sprites\sprite_wallturret</sprite>
@@ -120,6 +121,7 @@
     <object>objects\object_enemy</object>
     <object>objects\object_signpostmove</object>
     <object>objects\object_signpostgoodluck</object>
+    <object>objects\object_signpostdown</object>
     <object>objects\object_signpostshift</object>
     <object>objects\object_signpostdouble</object>
     <object>objects\object_signpostjump</object>

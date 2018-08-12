@@ -152,6 +152,8 @@
     <instance objName="object_signpostescaper" x="723" y="208" name="inst_BD2D6B8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostshift" x="900" y="200" name="inst_32F751E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostdouble" x="100" y="200" name="inst_2776C124" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_surprisefloaty" x="1476" y="707" name="inst_B292C90F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_signpostdown" x="1914" y="712" name="inst_D5E0C761" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
