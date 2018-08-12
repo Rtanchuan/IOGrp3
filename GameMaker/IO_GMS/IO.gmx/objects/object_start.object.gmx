@@ -48,9 +48,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if(!audio_is_playing(sound_BGmusic)) &amp;&amp; (!audio_is_playing(sound_BG2music))
-audio_play_sound(choose(sound_BGmusic,sound_BG2music),1,true);
+            <string>audio_stop_sound(sound_BG2music);
+if(!audio_is_playing(sound_BGmusic))
+audio_play_sound(sound_BGmusic,1,true);
 </string>
           </argument>
         </arguments>
@@ -211,7 +211,7 @@ if (showtext == 1)
     draw_set_color(c_white);
     draw_set_halign(fa_center);
     //draw_set_font(fnt_default);
-    draw_text(x,y-64,"This will overwrite any existing save");
+    draw_text(x+190,y-45,"This will overwrite#any existing save");
 }
 
 </string>

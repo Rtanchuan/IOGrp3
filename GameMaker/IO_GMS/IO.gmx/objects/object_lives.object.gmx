@@ -93,25 +93,27 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
-        <id>333</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_save_game</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>2</kind>
-            <string>IO save</string>
+            <kind>1</kind>
+            <string>global.deathcount</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -183,7 +185,7 @@ draw_set_color(c_white);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0]+80</string>
+            <string>view_xview[0]+100</string>
           </argument>
           <argument>
             <kind>0</kind>
