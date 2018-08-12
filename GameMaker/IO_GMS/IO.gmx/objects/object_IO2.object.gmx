@@ -40,7 +40,7 @@ walljumper=0; //change to 1 for wall jump
 sprintsp=3; //change to 3 for sprint ability
 sprinter=0;
 
-deathcount=0;
+global.deathcount=0;
 </string>
           </argument>
         </arguments>
@@ -1100,7 +1100,7 @@ camera_movement();
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
@@ -1128,7 +1128,7 @@ walksp=0;
 spawnanim=true;
 alive=true
 jump_amt=0;
-
+global.escapedhole=0;
 </string>
           </argument>
         </arguments>
@@ -1154,26 +1154,6 @@ jump_amt=0;
           <argument>
             <kind>0</kind>
             <string>wherey</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>333</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_save_game</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>2</kind>
-            <string>IO save</string>
           </argument>
         </arguments>
       </action>

@@ -105,9 +105,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(file_exists("IO save")){
-audio_play_sound(sound_IOspawn,1,false);
-}
+            <string>//if(file_exists("IO save")){
+//audio_play_sound(sound_IOspawn,1,false);
+//}
 </string>
           </argument>
         </arguments>

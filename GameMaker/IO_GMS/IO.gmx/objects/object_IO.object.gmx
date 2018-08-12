@@ -756,7 +756,7 @@ camera_movement();
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
@@ -810,26 +810,6 @@ jump_amt=0;
           <argument>
             <kind>0</kind>
             <string>wherey</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>333</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_save_game</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>2</kind>
-            <string>IO save</string>
           </argument>
         </arguments>
       </action>
@@ -1165,28 +1145,6 @@ jump_amt=0;
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="7" enumb="4">
-      <action>
-        <libid>1</libid>
-        <id>333</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_save_game</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>2</kind>
-            <string>IO save</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="7" enumb="0">
       <action>
         <libid>1</libid>
@@ -1446,8 +1404,8 @@ sprinter=0;
             <kind>1</kind>
             <string>
 if(!audio_is_playing(sound_oh_well)) &amp;&amp; (!audio_is_playing(sound_same)) &amp;&amp; (!audio_is_playing(sound_ycdbnt)) &amp;&amp; (!audio_is_playing(sound_messedycbnt)) &amp;&amp; (!audio_is_playing(sound_go)) &amp;&amp; (!audio_is_playing(sound_what_even))&amp;&amp; (!audio_is_playing(sound_rhyme)) &amp;&amp; (!audio_is_playing(sound_hehe)) &amp;&amp; (!audio_is_playing(sound_space2jump))&amp;&amp; (!audio_is_playing(sound_isuck2)) &amp;&amp; (!audio_is_playing(sound_believer)) &amp;&amp; (!audio_is_playing(sound_IOspawn))&amp;&amp; (!audio_is_playing(sound_IOdeath))
-audio_play_sound(choose(sound_go,sound_rhyme,sound_hehe,sound_space2jump,sound_isuck2,sound_believer),1,false);
-//sound_oh_well, sound_same, sound_ycdbnt,sound_messedycbnt, ,sound_what_even
+audio_play_sound(choose(sound_rhyme,sound_hehe,sound_space2jump,sound_isuck2,sound_believer),1,false);
+//sound_go,sound_oh_well, sound_same, sound_ycdbnt,sound_messedycbnt, ,sound_what_even
 </string>
           </argument>
         </arguments>

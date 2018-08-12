@@ -101,6 +101,7 @@ if (showtext == 1)
         //draw_set_font(fnt_default);
         draw_text(x,y-64,"Avoid red spikes#if need be");
     }
+    
 }
 
 </string>
