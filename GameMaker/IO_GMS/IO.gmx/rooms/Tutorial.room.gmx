@@ -141,6 +141,7 @@
     <instance objName="object_BG2" x="150" y="250" name="inst_3B84F84F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_BG2" x="2050" y="950" name="inst_4F6CA7B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_BG" x="250" y="950" name="inst_05A1E584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_totitle" x="200" y="950" name="inst_9F8EFCDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
