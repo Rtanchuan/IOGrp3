@@ -8,29 +8,6 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.paused=0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -48,48 +25,29 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0]+(view_wview[0]-30)</string>
+            <string>view_xview[0]+512</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_yview[0]+30</string>
+            <string>view_yview[0]+384</string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="4">
+    <event eventtype="6" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>331</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_restart_game</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(!global.paused){
- instance_deactivate_all(true);
- instance_create(view_xview[0]+512,view_yview[0]+384,object_sure);
- instance_create(view_xview[0]+512,view_yview[0]+450,object_sureno);
- global.paused=1;
- }
-else {
-instance_activate_all()
-instance_destroy(object_sure,true);
-instance_destroy(object_sureno,true);
-global.paused=0;
-
-}
-</string>
-          </argument>
-        </arguments>
       </action>
     </event>
     <event eventtype="8" enumb="0">
@@ -110,20 +68,24 @@ global.paused=0;
           <argument>
             <kind>1</kind>
             <string>draw_self();
-if(!global.paused){
+    //draw_set_alpha(0.5);
+    //draw_set_color(c_black);
+    //draw_set_halign(fa_center);
+    //draw_set_font(fnt_default);
+    //draw_text(x+1,y-64+1,"Hi!#This is a string!");
+
+        draw_set_alpha(1);
+        draw_set_color(c_white);
+        draw_set_halign(fa_center);
+        //draw_set_font(fnt_default);
+        draw_text(x,y-64,"Exit to title?");
+        
         draw_set_alpha(1);
         draw_set_color(c_black);
         draw_set_halign(fa_center);
         //draw_set_font(fnt_default);
-        draw_text(x,y-10,"||");
-}
-else{
-        draw_set_alpha(1);
-        draw_set_color(c_black);
-        draw_set_halign(fa_center);
-        //draw_set_font(fnt_default);
-        draw_text(x,y-9,"&gt;");
-}
+        draw_text(x,y,"YES");
+
 </string>
           </argument>
         </arguments>
