@@ -34,13 +34,15 @@ spawnanim=true;
 alive=true
 jump_amt=0;
 image_speed = 0.3;
+onteleporter=0;
+onfake=0;
+onFportal=0;
 
 maxjumps=2; //change to 2 for double jump
 walljumper=0; //change to 1 for wall jump
 sprintsp=3; //change to 3 for sprint ability
 sprinter=0;
 
-global.deathcount=0;
 global.saver=1;
 </string>
           </argument>
@@ -143,30 +145,6 @@ global.saver=1;
           <argument>
             <kind>0</kind>
             <string>0.3</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>onteleporter</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -702,6 +680,54 @@ camera_movement();
           <argument>
             <kind>1</kind>
             <string>onteleporter</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>onfake</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>onFportal</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1492,7 +1518,7 @@ global.escapedhole=0;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>object_lives</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
