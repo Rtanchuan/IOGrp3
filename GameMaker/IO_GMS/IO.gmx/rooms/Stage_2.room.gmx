@@ -92,7 +92,6 @@
     <instance objName="object_floor4" x="1750" y="575" name="inst_62FF50EA" locked="0" code="" scaleX="1.5" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="object_surprisefloaty" x="1900" y="450" name="inst_3A681D67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_surprisefloaty" x="1700" y="450" name="inst_2D6D343C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_floor4" x="1950" y="775" name="inst_392C06C1" locked="0" code="" scaleX="0.5" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="object_Rwallturret" x="170" y="280" name="inst_C4EDCD3E" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floatytrap" x="1150" y="200" name="inst_A3BD1119" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_trapdis_app" x="1900" y="350" name="inst_C0EDD0CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -108,7 +107,7 @@
     <instance objName="object_signpostescaper" x="723" y="208" name="inst_BD2D6B8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostshift" x="900" y="200" name="inst_32F751E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostdouble" x="100" y="205" name="inst_2776C124" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_signpostdown" x="1914" y="712" name="inst_D5E0C761" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_signpostdown" x="1803" y="509" name="inst_D5E0C761" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_BG" x="300" y="400" name="inst_19E563EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_BG2" x="500" y="100" name="inst_26489873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_BG" x="1200" y="350" name="inst_53F2D01A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -122,25 +121,24 @@
     <instance objName="object_likequicksand" x="1025" y="1495" name="inst_2CD5763D" locked="0" code="" scaleX="9.75" scaleY="0.0500000007450581" colour="3707764735" rotation="0"/>
     <instance objName="object_floatytrap" x="1974" y="179" name="inst_7942E64A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floatytrap" x="1627" y="179" name="inst_3FCA518C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_fakefloatytrap" x="1969" y="450" name="inst_79CCF811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakefloatytrap" x="1629" y="450" name="inst_61DEDF86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_fakefloor" x="1774" y="750" name="inst_27884F6D" locked="0" code="" scaleX="1.25125622749329" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakefloor" x="1825" y="751" name="inst_27884F6D" locked="0" code="" scaleX="1.7638190984726" scaleY="0.215000003576279" colour="4294967295" rotation="0"/>
     <instance objName="object_floor4" x="1775" y="1442" name="inst_F0AD7163" locked="0" code="" scaleX="1.25" scaleY="0.125" colour="4294967295" rotation="0"/>
     <instance objName="object_fakeportal" x="1782" y="1375" name="inst_AC5CD0D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_fakefloatytrap" x="1775" y="850" name="inst_184C173C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakefloatytrap" x="1808" y="898" name="inst_184C173C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakefloatytrap" x="1850" y="1000" name="inst_CDBD61AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_fakefloatytrap" x="1684" y="1023" name="inst_A90D37D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakefloatytrap" x="1687" y="1023" name="inst_A90D37D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakefloatytrap" x="1846" y="1091" name="inst_027B27D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakefloatytrap" x="1795" y="1181" name="inst_351D68DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakefloatytrap" x="1853" y="1282" name="inst_678B3657" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakefloatytrap" x="1700" y="1350" name="inst_1448DAEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_fakefloatytrap" x="1841" y="893" name="inst_19A40EF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_fakefloatytrap" x="1957" y="862" name="inst_19A40EF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floor4" x="1636" y="1101" name="inst_7E6EF400" locked="0" code="" scaleX="0.125" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="object_surprisefloaty" x="1944" y="1389" name="inst_819613FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_Lwallturret" x="1979" y="951" name="inst_095E96B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_Lwallturret" x="1979" y="1218" name="inst_07D849D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fakenothing" x="1450" y="750" name="inst_7BA2E6EF" locked="0" code="" scaleX="1.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="object_floatytrap" x="1574" y="839" name="inst_F166A679" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floatytrap" x="1581" y="839" name="inst_F166A679" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floatytrap" x="1450" y="827" name="inst_C02837E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floatytrap" x="1379" y="823" name="inst_384149D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floor4" x="1276" y="776" name="inst_07FCF854" locked="0" code="" scaleX="0.75" scaleY="0.25" colour="4294967295" rotation="0"/>
@@ -162,9 +160,9 @@
     <instance objName="object_fakehorRsur" x="28" y="661" name="inst_436EA553" locked="0" code="" scaleX="-2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floor" x="376" y="701" name="inst_4A08A78B" locked="0" code="" scaleX="1.875" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="object_fakefloor" x="95" y="701" name="inst_4C07BC2D" locked="0" code="" scaleX="0.935000002384186" scaleY="0.245000004768372" colour="4294967295" rotation="0"/>
-    <instance objName="object_likequicksand" x="607" y="725" name="inst_F3D42987" locked="0" code="" scaleX="0.435000002384186" scaleY="0.239999994635582" colour="4294967295" rotation="0"/>
+    <instance objName="object_likequicksand" x="607" y="740" name="inst_F3D42987" locked="0" code="" scaleX="0.430000007152557" scaleY="0.0850000008940697" colour="4294967295" rotation="0"/>
     <instance objName="object_floor4" x="600" y="775" name="inst_1C869D8F" locked="0" code="" scaleX="0.5" scaleY="-0.25" colour="4294967295" rotation="0"/>
-    <instance objName="object_signpostdieC" x="607" y="738" name="inst_4CD3EE0E" locked="0" code="" scaleX="0.246231153607368" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="object_signpostdieC" x="607" y="738" name="inst_4CD3EE0E" locked="0" code="" scaleX="0.236453205347061" scaleY="0.140000000596046" colour="4294967295" rotation="0"/>
     <instance objName="object_signpostshiftB" x="1636" y="726" name="inst_73EDE13F" locked="0" code="" scaleX="0.0351758785545826" scaleY="0.589999973773956" colour="4294967295" rotation="0"/>
     <instance objName="object_walltrap" x="176" y="920" name="inst_558DB780" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floatytrap" x="139" y="1322" name="inst_A5C914B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -191,7 +189,7 @@
     <instance objName="object_walltrap" x="1276" y="994" name="inst_4A853B7C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_verticalDsur" x="1239" y="1024" name="inst_8592D38B" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
     <instance objName="object_floor4" x="1467" y="1025" name="inst_A80B3311" locked="0" code="" scaleX="0.0975609719753265" scaleY="0.0502512566745281" colour="4294967295" rotation="0"/>
-    <instance objName="object_floatytrap" x="1512" y="831" name="inst_7F243C20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_floatytrap" x="1514" y="834" name="inst_7F243C20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_surprisefloaty" x="1328" y="1016" name="inst_89D389EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_surprisefloaty" x="1396" y="1024" name="inst_E2294757" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_floor4" x="191" y="1066" name="inst_30A78DB6" locked="0" code="" scaleX="0.0399999991059303" scaleY="3.64000010490417" colour="4294967295" rotation="0"/>
