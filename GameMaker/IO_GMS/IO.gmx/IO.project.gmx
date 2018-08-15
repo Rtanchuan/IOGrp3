@@ -92,6 +92,7 @@
     <object>objects\object_breakablefloor</object>
     <object>objects\object_trapdis_app</object>
     <object>objects\object_fakefloor</object>
+    <object>objects\object_fakefloor2</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
     <object>objects\object_fakefloatytrap</object>
@@ -127,6 +128,8 @@
     <object>objects\object_enemy</object>
     <object>objects\object_signpostmove</object>
     <object>objects\object_signpostgoodluck</object>
+    <object>objects\object_signpostupgrade</object>
+    <object>objects\object_signpostnothere</object>
     <object>objects\object_signpostshiftB</object>
     <object>objects\object_signpostdown</object>
     <object>objects\object_signpostshift</object>
@@ -136,6 +139,7 @@
     <object>objects\object_signpostenter</object>
     <object>objects\object_signpostdie</object>
     <object>objects\object_signpostdieC</object>
+    <object>objects\object_congratulations</object>
     <object>objects\object_signpostdieB</object>
     <object>objects\object_signpostescaper</object>
     <object>objects\object_start</object>
