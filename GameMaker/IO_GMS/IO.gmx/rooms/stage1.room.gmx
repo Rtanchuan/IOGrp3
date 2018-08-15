@@ -159,7 +159,8 @@
     <instance objName="object_faketrap" x="900" y="521" name="inst_F4634462" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
     <instance objName="object_BG2" x="1450" y="200" name="inst_1D01BBF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_BG2" x="2600" y="200" name="inst_183ABB28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_likequicksand" x="1900" y="1450" name="inst_B0257661" locked="0" code="" scaleX="9" scaleY="0.5" colour="3707764735" rotation="0"/>
+    <instance objName="object_likequicksand" x="1900" y="1474" name="inst_B0257661" locked="0" code="" scaleX="9" scaleY="0.25" colour="3707764735" rotation="0"/>
+    <instance objName="object_signpostupgrade" x="2693" y="350" name="inst_C09D538D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

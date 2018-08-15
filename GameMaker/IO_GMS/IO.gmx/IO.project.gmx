@@ -21,6 +21,7 @@
     <sound>sound\sound_jump</sound>
     <sound>sound\sound_BGmusic</sound>
     <sound>sound\sound_BG2music</sound>
+    <sound>sound\sound_error</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
@@ -91,6 +92,7 @@
     <object>objects\object_breakablefloor</object>
     <object>objects\object_trapdis_app</object>
     <object>objects\object_fakefloor</object>
+    <object>objects\object_fakefloor2</object>
     <object>objects\object_fakenothing</object>
     <object>objects\object_faketrap</object>
     <object>objects\object_fakefloatytrap</object>
@@ -103,11 +105,14 @@
     <object>objects\object_horizontalLsur</object>
     <object>objects\object_horizontalLsur2</object>
     <object>objects\object_horizontalRsur</object>
+    <object>objects\object_fakehorRsur</object>
     <object>objects\object_horizontalRsur2</object>
     <object>objects\object_verticalDsur</object>
     <object>objects\object_verticalUsur</object>
     <object>objects\object_lives</object>
     <object>objects\object_teleporter</object>
+    <object>objects\object_Fportal</object>
+    <object>objects\object_fakeportal</object>
     <object>objects\object_BG</object>
     <object>objects\object_BGtrap</object>
     <object>objects\object_BG2</object>
@@ -123,6 +128,9 @@
     <object>objects\object_enemy</object>
     <object>objects\object_signpostmove</object>
     <object>objects\object_signpostgoodluck</object>
+    <object>objects\object_signpostupgrade</object>
+    <object>objects\object_signpostnothere</object>
+    <object>objects\object_signpostshiftB</object>
     <object>objects\object_signpostdown</object>
     <object>objects\object_signpostshift</object>
     <object>objects\object_signpostdouble</object>
@@ -130,6 +138,8 @@
     <object>objects\object_signpostF</object>
     <object>objects\object_signpostenter</object>
     <object>objects\object_signpostdie</object>
+    <object>objects\object_signpostdieC</object>
+    <object>objects\object_congratulations</object>
     <object>objects\object_signpostdieB</object>
     <object>objects\object_signpostescaper</object>
     <object>objects\object_start</object>
@@ -140,6 +150,7 @@
     <object>objects\object_sure</object>
     <object>objects\object_main_menu</object>
     <object>objects\object_credits</object>
+    <object>objects\object_fade</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_screen</room>
