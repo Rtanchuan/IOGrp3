@@ -105,6 +105,52 @@ instance_destroy(object_timer);
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>250</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>802</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_snapshot</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>2</kind>
+            <string>Statistics.png</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="3">
       <action>
@@ -566,9 +612,6 @@ audio_play_sound(sound_BG2music,1,true);
         draw_text_transformed(x,y+950,global.deathcount,2,2,0)
         draw_text_transformed(x,y+1000,"Total Play Time:",2,2,0)
         draw_text_transformed(x,y+1050,string(global.hours) + ":" + string(global.minutes) + ":" + string(global.seconds),2,2,0)
-        
-        
-        
         draw_text_transformed(x,y+1250,"Credits",2.5,2.5,0)
         draw_text_transformed(x,y+1350,"Developers",2,2,0)
         draw_text_transformed(x,y+1400,"Rafael Tanchuan",1.5,1.5,0)
