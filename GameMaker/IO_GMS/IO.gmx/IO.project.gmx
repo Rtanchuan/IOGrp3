@@ -4,28 +4,162 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound_oh_well</sound>
+    <sound>sound\sound_same</sound>
+    <sound>sound\sound_ycdbnt</sound>
+    <sound>sound\sound_messedycbnt</sound>
+    <sound>sound\sound_rhyme</sound>
+    <sound>sound\sound_go</sound>
+    <sound>sound\sound_hehe</sound>
+    <sound>sound\sound_space2jump</sound>
+    <sound>sound\sound_what_even</sound>
+    <sound>sound\sound_isuck2</sound>
+    <sound>sound\sound_believer</sound>
+    <sound>sound\sound_IOdeath</sound>
+    <sound>sound\sound_IOspawn</sound>
+    <sound>sound\sound_jump</sound>
+    <sound>sound\sound_BGmusic</sound>
+    <sound>sound\sound_BG2music</sound>
+    <sound>sound\sound_error</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_IO</sprite>
     <sprite>sprites\sprite_spike</sprite>
+    <sprite>sprites\sprite_spikeHLmove</sprite>
+    <sprite>sprites\sprite_spikeHRmove</sprite>
+    <sprite>sprites\sprite_spikeVSmove</sprite>
+    <sprite>sprites\sprite_spikeHSmove</sprite>
+    <sprite>sprites\sprite_wallspike</sprite>
     <sprite>sprites\sprite_terr_one</sprite>
     <sprite>sprites\sprite_IOspawn</sprite>
     <sprite>sprites\sprite_IOdeath</sprite>
+    <sprite>sprites\sprite_nothing</sprite>
+    <sprite>sprites\sprite_fakenothing</sprite>
+    <sprite>sprites\sprite_surpise</sprite>
+    <sprite>sprites\sprite_horizontaldetect</sprite>
+    <sprite>sprites\sprite_floatyspike</sprite>
+    <sprite>sprites\sprite_terr_two</sprite>
+    <sprite>sprites\sprite_terr_three</sprite>
+    <sprite>sprites\sprite_terr_four</sprite>
+    <sprite>sprites\sprite_terrfourV2</sprite>
+    <sprite>sprites\sprite_terr_five</sprite>
+    <sprite>sprites\sprite_quicksand</sprite>
+    <sprite>sprites\sprite_malware</sprite>
+    <sprite>sprites\sprite_turret</sprite>
+    <sprite>sprites\sprite_wallturret</sprite>
+    <sprite>sprites\sprite_Ubullet</sprite>
+    <sprite>sprites\sprite_Lbullet</sprite>
+    <sprite>sprites\sprite_platformM</sprite>
+    <sprite>sprites\sprite_3spike</sprite>
+    <sprite>sprites\sprite_BG</sprite>
+    <sprite>sprites\sprite_BGtrap</sprite>
+    <sprite>sprites\sprite_BG2</sprite>
+    <sprite>sprites\sprite_BG2trap</sprite>
+    <sprite>sprites\sprite_IO2jump</sprite>
+    <sprite>sprites\sprite_IO2</sprite>
+    <sprite>sprites\sprite_IO2walk</sprite>
+    <sprite>sprites\sprite_portal</sprite>
+    <sprite>sprites\sprite_play</sprite>
+    <sprite>sprites\sprite_playhover</sprite>
+    <sprite>sprites\sprite_continue</sprite>
+    <sprite>sprites\sprite_conthover</sprite>
+    <sprite>sprites\sprite_mainmenu</sprite>
+    <sprite>sprites\sprite_switch</sprite>
+    <sprite>sprites\sprite_totitle</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\camera_movement.gml</script>
+    <script>scripts\camera_movement_P2.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\object_IO</object>
+    <object>objects\object_IO2</object>
     <object>objects\object_floor</object>
+    <object>objects\object_floor2</object>
+    <object>objects\object_floor2v2</object>
+    <object>objects\object_floor3</object>
+    <object>objects\object_floor3v2</object>
+    <object>objects\object_floor4</object>
+    <object>objects\object_likequicksand</object>
+    <object>objects\object_floorrotate</object>
+    <object>objects\object_floorLRmove</object>
+    <object>objects\object_floorUDmove</object>
+    <object>objects\object_floordis_app</object>
+    <object>objects\object_floordis_app2</object>
+    <object>objects\object_breakablefloor</object>
+    <object>objects\object_trapdis_app</object>
+    <object>objects\object_fakefloor</object>
+    <object>objects\object_fakefloor2</object>
+    <object>objects\object_fakenothing</object>
+    <object>objects\object_faketrap</object>
+    <object>objects\object_fakefloatytrap</object>
+    <object>objects\object_fakewalltrap</object>
     <object>objects\object_trap</object>
+    <object>objects\object_walltrap</object>
+    <object>objects\object_floatytrap</object>
     <object>objects\object_surprise</object>
+    <object>objects\object_surprisefloaty</object>
+    <object>objects\object_horizontalLsur</object>
+    <object>objects\object_horizontalLsur2</object>
+    <object>objects\object_horizontalRsur</object>
+    <object>objects\object_fakehorRsur</object>
+    <object>objects\object_horizontalRsur2</object>
+    <object>objects\object_verticalDsur</object>
+    <object>objects\object_verticalUsur</object>
     <object>objects\object_lives</object>
+    <object>objects\object_teleporter</object>
+    <object>objects\object_Fportal</object>
+    <object>objects\object_fakeportal</object>
+    <object>objects\object_BG</object>
+    <object>objects\object_BGtrap</object>
+    <object>objects\object_BG2</object>
+    <object>objects\object_BG2trap</object>
+    <object>objects\object_Uturret</object>
+    <object>objects\object_Dturret</object>
+    <object>objects\object_Lwallturret</object>
+    <object>objects\object_Rwallturret</object>
+    <object>objects\object_Ubullet</object>
+    <object>objects\object_Lbullet</object>
+    <object>objects\object_Rbullet</object>
+    <object>objects\object_Dbullet</object>
+    <object>objects\object_enemy</object>
+    <object>objects\object_signpostmove</object>
+    <object>objects\object_signpostgoodluck</object>
+    <object>objects\object_signpostupgrade</object>
+    <object>objects\object_signpostnothere</object>
+    <object>objects\object_signpostshiftB</object>
+    <object>objects\object_signpostdown</object>
+    <object>objects\object_signpostshift</object>
+    <object>objects\object_signpostdouble</object>
+    <object>objects\object_signpostjump</object>
+    <object>objects\object_signpostF</object>
+    <object>objects\object_signpostenter</object>
+    <object>objects\object_signpostdie</object>
+    <object>objects\object_signpostdieC</object>
+    <object>objects\object_congratulations</object>
+    <object>objects\object_signpostdieB</object>
+    <object>objects\object_signpostescaper</object>
+    <object>objects\object_start</object>
+    <object>objects\object_load</object>
+    <object>objects\object_quit</object>
+    <object>objects\object_totitle</object>
+    <object>objects\object_sureno</object>
+    <object>objects\object_sure</object>
+    <object>objects\object_main_menu</object>
+    <object>objects\object_credits</object>
+    <object>objects\object_fade</object>
+    <object>objects\object_fade2</object>
+    <object>objects\object_timer</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test_room</room>
+    <room>rooms\Title_screen</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\stage1</room>
+    <room>rooms\Stage_2</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
