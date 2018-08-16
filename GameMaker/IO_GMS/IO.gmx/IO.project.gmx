@@ -151,6 +151,8 @@
     <object>objects\object_main_menu</object>
     <object>objects\object_credits</object>
     <object>objects\object_fade</object>
+    <object>objects\object_fade2</object>
+    <object>objects\object_timer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_screen</room>
