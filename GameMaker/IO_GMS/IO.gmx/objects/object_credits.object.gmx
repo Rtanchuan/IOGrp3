@@ -612,9 +612,6 @@ audio_play_sound(sound_BG2music,1,true);
         draw_text_transformed(x,y+950,global.deathcount,2,2,0)
         draw_text_transformed(x,y+1000,"Total Play Time:",2,2,0)
         draw_text_transformed(x,y+1050,string(global.hours) + ":" + string(global.minutes) + ":" + string(global.seconds),2,2,0)
-        
-        
-        
         draw_text_transformed(x,y+1250,"Credits",2.5,2.5,0)
         draw_text_transformed(x,y+1350,"Developers",2,2,0)
         draw_text_transformed(x,y+1400,"Rafael Tanchuan",1.5,1.5,0)
