@@ -612,17 +612,20 @@ audio_play_sound(sound_BG2music,1,true);
         draw_text_transformed(x,y+950,global.deathcount,2,2,0)
         draw_text_transformed(x,y+1000,"Total Play Time:",2,2,0)
         draw_text_transformed(x,y+1050,string(global.hours) + ":" + string(global.minutes) + ":" + string(global.seconds),2,2,0)
+        
+        
+        
         draw_text_transformed(x,y+1250,"Credits",2.5,2.5,0)
         draw_text_transformed(x,y+1350,"Developers",2,2,0)
         draw_text_transformed(x,y+1400,"Rafael Tanchuan",1.5,1.5,0)
         draw_text_transformed(x,y+1450,"Klaudia Gaia Borromeo",1.5,1.5,0)
         draw_text_transformed(x,y+1550,"Artists",2,2,0)
         draw_text_transformed(x,y+1600,"Edmund Gerald Cruz",1.5,1.5,0)
-        draw_text_transformed(x,y+1650,"Khobert Yves Linchanco",1.5,1.5,0)
+        draw_text_transformed(x,y+1650,"Khobert Yves Linchangco",1.5,1.5,0)
         draw_text_transformed(x,y+1750,"Quality Assurance",2,2,0)
         draw_text_transformed(x,y+1800,"Aron Joshua Tan",1.5,1.5,0)
         draw_text_transformed(x,y+1900,"Documentation",2,2,0)
-        draw_text_transformed(x,y+1950,"Aric Brilliantes",1.5,1.5,0)
+        draw_text_transformed(x,y+1950,"Aric Brillantes",1.5,1.5,0)
         
         draw_text_transformed(x,y+2050,"Audio",2,2,0)
         draw_text_transformed(x,y+2100,"'8bit Dungeon Boss'#Kevin MacLeod (incompetech.com)#Licensed under Creative Commons:#By Attribution 3.0 License#http://creativecommons.org/licenses/by/3.0/",1.5,1.5,0)
