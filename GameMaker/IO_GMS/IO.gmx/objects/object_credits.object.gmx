@@ -617,7 +617,7 @@ audio_play_sound(sound_BG2music,1,true);
         
         draw_text_transformed(x,y+1250,"Credits",2.5,2.5,0)
         draw_text_transformed(x,y+1350,"Developers",2,2,0)
-        draw_text_transformed(x,y+1400,"Rafael Tanchuan",1.5,1.5,0)
+        draw_text_transformed(x,y+1400,"Rafael Louis Tanchuan",1.5,1.5,0)
         draw_text_transformed(x,y+1450,"Klaudia Gaia Borromeo",1.5,1.5,0)
         draw_text_transformed(x,y+1550,"Artists",2,2,0)
         draw_text_transformed(x,y+1600,"Edmund Gerald Cruz",1.5,1.5,0)
